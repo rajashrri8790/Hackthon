@@ -1,0 +1,36 @@
+<div class="bg">
+  <div class="login-box">
+
+    <h2>Royal Stay 🏨</h2>
+    <p class="subtitle">Sign in to continue your booking</p>
+
+    <form (ngSubmit)="login()">
+
+      <div class="input-box">
+        <input
+          type="email"
+          placeholder="Email Address"
+          [(ngModel)]="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <div class="input-box">
+        <input
+          type="password"
+          placeholder="Password"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
+      </div>
+
+      <button type="submit">Login</button>
+
+    </form>
+
+    <p class="footer-text">Don't have an account? <span>Sign up</span></p>
+
+  </div>
+</div>
