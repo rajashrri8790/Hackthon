@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="BDDTests/BDDTests.csproj" />
+  <Project Path="Data/Data.csproj" />
+  <Project Path="DTOs/DTOs.csproj" />
+  <Project Path="HotelBookingSystemApi/HotelBookingSystemApi.csproj" />
+  <Project Path="Models/Models.csproj" />
+  <Project Path="Services/Services.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+</Solution>
